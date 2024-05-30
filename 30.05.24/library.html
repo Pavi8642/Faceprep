@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="library.css">
+</head>
+<body>
+  <header>
+    <h1>Library Management System</h1>
+    <link rel="stylesheet" href="library.css">
+    <form id="searchForm">
+      <input type="text" id="searchInput" placeholder="Search Books">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+  <main>
+    <section class="book-list" id="bookList">
+      <h2>Available Programming Books</h2>
+      <ul id="books">
+        <li>
+          <h3>Book Title: Python</h3>
+          <p>Author: John M Zelle</p>
+          <p>Edition: 2nd edition</p>
+          <p>Status: Available</p>
+          <button>Borrow</button>
+        </li>
+        <li>
+          <h3>Book Title: C++</h3>
+          <p>Author: Bjarne Stroustrup  </p>
+          <p>Edition: 4th edition</p>
+          <p>Status: Available</p>
+          <button>Borrow</button>
+        </li>
+       <li>
+          <h3>Book Title: Java</h3>
+          <p>Author:  James Gosling  </p>
+          <p>Edition: 1st edition</p>
+          <p>Status: Available</p>
+          <button>Borrow</button>
+        </li>
+      </ul>
+    </section>
+     <section class="book-list" id="bookList">
+      <h2>Available story Books</h2>
+      <ul id="books">
+        <li>
+          <h3>Book Title: The Life And Times Of K. Kamaraj</h3>
+          <p>Author: Bala Jeyaraman</p>
+          <p>Status: Available</p>
+          <p>Edition: 1st edition</p>
+          <button>Borrow</button>
+        </li>
+        <li>
+          <h3>Book Title: Mahabharata</h3>
+          <p>Author: Vyasa</p>
+          <p>Status: Available</p>
+          <p>Edition: 3rd edition</p>
+          <button>Borrow</button>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <script src="library.js"></script>
+</body>
+</html>
